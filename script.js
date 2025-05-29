@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             box.style.backgroundColor = getRandomColor();
             
             setTimeout(() => {
-                box.style.backgroundColor = 'white';
-            }, 1000);
+                box.style.backgroundColor = `rgb(29, 29, 29)`;
+            }, 4000);
         });
         
         container.appendChild(box);
